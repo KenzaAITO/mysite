@@ -4,6 +4,7 @@ from polls import views
 app_name = 'polls'
 urlpatterns = [
     path('', views.index, name='index'),
+    path('', views.my_view, name='views')
 ]
 
 #tag template de Django qui génère l'URL complet de votre image.
