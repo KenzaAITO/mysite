@@ -1,10 +1,8 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 
-def index(request):
+def index():
     return HttpResponse("Hello, world. You're at the polls index.")
 
-
-
 def my_view(request):
-    return render(request, 'my_template.html')
+    return render(request, '/templates/my_template.html')
