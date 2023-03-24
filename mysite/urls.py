@@ -21,7 +21,7 @@ from myapp import views
 urlpatterns = [
     path('polls/', include('polls.urls')),
     path('admin/', admin.site.urls),
-    path('', views.home, name='home'),
-    path('', Home.as_view(), name='home'),
+ #   path('', views.home, name='home'),
+    #path('', Home.as_view(), name='home'),
  #   path('myapp/', include('myapp.urls'))
 ]
