@@ -14,8 +14,8 @@ Class-based views
 from django.contrib import admin
 from django.urls import include, path
 #from polls.views import Home
-from polls.views import my_view
-from polls.views import index
+from myapp.views import my_view
+from myapp.views import index
 from myapp import views
 
 urlpatterns = [
